@@ -20,7 +20,7 @@ export interface IBasket {
 
 interface ICountUp {
     newCount: number
-    id: string
+    id: number
 }
 
 export const medstoreApi = createApi({
@@ -35,7 +35,7 @@ export const medstoreApi = createApi({
             query: () => '/basket',
             providesTags: ['basket']
         }),
-        getProductInBasket: builder.query<string | number, IBasket>({
+        getProductInBasket: builder.query<IBasket, number>({
             query: (id) => `/basket?id=${id}`
         }),
         addProductInBasket: builder.mutation<IBasket, IBasket>({
@@ -46,7 +46,7 @@ export const medstoreApi = createApi({
             }),
             invalidatesTags: ['basket']
         }),
-        CountUp: builder.mutation<ICountUp, IBasket>({
+        CountUp: builder.mutation<IBasket, ICountUp>({
             query: ({newCount, id}) => ({
                 url: `/basket/${id}`,
                 method: 'PATCH',

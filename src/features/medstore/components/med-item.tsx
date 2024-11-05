@@ -1,4 +1,4 @@
-import { useAddProductInBasketMutation, useLazyGetProductInBasketQuery, type IMedicine } from "../medstore.api";
+import { useAddProductInBasketMutation, useCountUpMutation, useLazyGetProductInBasketQuery, type IMedicine } from "../medstore.api";
 
 interface IProps{
     medicine:IMedicine
@@ -6,7 +6,8 @@ interface IProps{
 export const MedItem:React.FC<IProps> = ({medicine}) => {
 
     const [handleAdd] = useAddProductInBasketMutation()
-    const [trigger, {data: prodData}] = useLazyGetProductInBasketQuery()
+    const [countUp] = useCountUpMutation()
+    const [trigger] = useLazyGetProductInBasketQuery()
 
     
 
@@ -17,7 +18,7 @@ export const MedItem:React.FC<IProps> = ({medicine}) => {
                 alt={medicine.name}
                 className="w-full h-40 object-cover"
             />
-            <div className="p-4">, useLazyGetProductInBasketQuery, 
+            <div className="p-4">
                 <h2 className="text-lg font-semibold text-white-800 mb-2">
                     {medicine.name}
                 </h2>
@@ -38,6 +39,11 @@ export const MedItem:React.FC<IProps> = ({medicine}) => {
                         .then(response => {
                             if(Array.isArray(response) && response.length == 0) {
                                 handleAdd({...medicine, count: 1})
+                            }else if(Array.isArray(response) && response.length !== 0){
+                                countUp({
+                                    newCount: response[0].count + 1,
+                                    id: response[0].id
+                                })
                             }
                         })
                     }}
