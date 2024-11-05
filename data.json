@@ -1,0 +1,211 @@
+{
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Paracetamol",
+      "price": 5.99,
+      "category": "Pain Reliever",
+      "description": "Used to treat mild to moderate pain and reduce fever.",
+      "photoUrl": "https://phabcart.imgix.net/cdn/scdn/images/uploads/m0459_web.jpg?auto=compress&lossless=1&w=385"
+    },
+    {
+      "id": "2",
+      "name": "Amoxicillin",
+      "price": 8.49,
+      "category": "Antibiotic",
+      "description": "An antibiotic used to treat a wide variety of bacterial infections.",
+      "photoUrl": "https://www.pyxuspharmaceuticals.com/wp-content/uploads/2022/09/AMOXICILLIN.png"
+    },
+    {
+      "id": "3",
+      "name": "Ibuprofen",
+      "price": 6.99,
+      "category": "Pain Reliever",
+      "description": "Used to reduce fever and relieve pain or inflammation.",
+      "photoUrl": "https://accessdoctor.co.uk/wp-content/uploads/2021/10/Ibuprofen-600mg.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Ciprofloxacin",
+      "price": 12.75,
+      "category": "Antibiotic",
+      "description": "An antibiotic effective against a wide range of bacterial infections.",
+      "photoUrl": "https://fastcdn.pro/FileGallery/zagrosdarou.com/%D8%AF%D8%A7%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%D8%A2%D9%86%D8%AA%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%A8%DB%8C%D8%A7%D9%84/%D8%B3%DB%8C%D9%BE%D8%B1%D9%88%D9%81%D9%84%D9%88%DA%A9%D8%B3%D8%A7%D8%B3%DB%8C%D9%86_Ciprofloxacin/3D%20Box%20Cipro%20500.png"
+    },
+    {
+      "id": "5",
+      "name": "Metformin",
+      "price": 15.99,
+      "category": "Diabetes",
+      "description": "Used to control high blood sugar in patients with type 2 diabetes.",
+      "photoUrl": "https://fastcdn.pro/FileGallery/zagrosdarou.com/%D8%AF%D8%A7%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D9%86%D8%AF%D9%87-%D9%82%D9%86%D8%AF-%D8%AE%D9%88%D9%86/%D9%85%D8%AA%D9%81%D9%88%D8%B1%D9%85%DB%8C%D9%86_500_%D9%85%DB%8C%D9%84%DB%8C_%DA%AF%D8%B1%D9%85/-678806156-3D%20Box%20metfor%20500.png"
+    },
+    {
+      "id": "6",
+      "name": "Omeprazole",
+      "price": 9.5,
+      "category": "Antacid",
+      "description": "Reduces stomach acid and is used for heartburn and acid reflux.",
+      "photoUrl": "https://omeprazoleotc.com/cdn/shop/products/omeprazole-tablets-1200.png?v=1689286104"
+    },
+    {
+      "id": "7",
+      "name": "Aspirin",
+      "price": 4.99,
+      "category": "Pain Reliever",
+      "description": "Used to reduce pain, fever, or inflammation.",
+      "photoUrl": "https://torsineen.net/cdn/shop/products/aspirin.png?v=1678797660"
+    },
+    {
+      "id": "8",
+      "name": "Cetirizine",
+      "price": 5.5,
+      "category": "Allergy",
+      "description": "Antihistamine used to relieve allergy symptoms.",
+      "photoUrl": "https://yourmedicals.co.uk/cdn/shop/files/Cetirizine_Hydrochloride_Allergy_Hayfever_Relief_10mg_-_30_Tablets_43902e4b-d790-4eb0-81c5-4f0316d03fb3_1200x1200.webp?v=1718202980"
+    },
+    {
+      "id": "9",
+      "name": "Losartan",
+      "price": 14.99,
+      "category": "Blood Pressure",
+      "description": "Used to treat high blood pressure and protect the kidneys.",
+      "photoUrl": "https://api.evaro.com/wp-content/uploads/2021/10/Losartan-FRONT.png"
+    },
+    {
+      "id": "10",
+      "name": "Atorvastatin",
+      "price": 16.75,
+      "category": "Cholesterol",
+      "description": "Lowers cholesterol and reduces the risk of heart disease.",
+      "photoUrl": "https://globelapharma.com/wp-content/uploads/2023/01/ATORVASTATIN-EZETIMIBE_.png"
+    },
+    {
+      "id": "11",
+      "name": "Azithromycin",
+      "price": 11.99,
+      "category": "Antibiotic",
+      "description": "Used to treat various types of bacterial infections.",
+      "photoUrl": "https://images.apteka.ru/original_4ec36f41-3163-49d0-9af9-25cb0e116a06.png"
+    },
+    {
+      "id": "12",
+      "name": "Insulin",
+      "price": 40,
+      "category": "Diabetes",
+      "description": "Used to control blood sugar levels in people with diabetes.",
+      "photoUrl": "https://thumbs.dreamstime.com/b/transparent-glass-medical-vial-insulin-vector-illustration-transparent-glass-medical-vial-insulin-126318565.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Hydrochlorothiazide",
+      "price": 10.5,
+      "category": "Diuretic",
+      "description": "Treats high blood pressure and fluid retention.",
+      "photoUrl": "https://www.advacarepharma.com/static/638aea234f4c3acb24ae37ead0911c39/323c6/hydrochlorothiazide-tablets-box.png"
+    },
+    {
+      "id": "14",
+      "name": "Levothyroxine",
+      "price": 13.99,
+      "category": "Thyroid",
+      "description": "Used to treat hypothyroidism (underactive thyroid).",
+      "photoUrl": "https://www.pngkey.com/png/detail/716-7160052_levothyroxine.png"
+    },
+    {
+      "id": "15",
+      "name": "Amlodipine",
+      "price": 14.5,
+      "category": "Blood Pressure",
+      "description": "Used to treat high blood pressure and angina (chest pain).",
+      "photoUrl": "https://alfarespharma.com/wp-content/uploads/2021/08/AMLODIPINE.png"
+    },
+    {
+      "id": "16",
+      "name": "Prednisone",
+      "price": 9.99,
+      "category": "Steroid",
+      "description": "Used to treat inflammation, allergies, and autoimmune diseases.",
+      "photoUrl": "https://www.advacarepharma.com/static/2f5c391679123cc6a642b49eaef1144e/prednisone-tablets-box.png"
+    },
+    {
+      "id": "17",
+      "name": "Clopidogrel",
+      "price": 18,
+      "category": "Blood Thinner",
+      "description": "Prevents blood clots and reduces the risk of stroke or heart attack.",
+      "photoUrl": "https://advantagepharma.africa/wp-content/uploads/2023/10/clopidogrel.png"
+    },
+    {
+      "id": "18",
+      "name": "Gabapentin",
+      "price": 22.99,
+      "category": "Nerve Pain",
+      "description": "Used to treat nerve pain and certain types of seizures.",
+      "photoUrl": "https://alfapharm.am/product-images/big/00021509.png"
+    },
+    {
+      "id": "19",
+      "name": "Metoprolol",
+      "price": 13.49,
+      "category": "Blood Pressure",
+      "description": "Used to treat high blood pressure, chest pain, and heart failure.",
+      "photoUrl": "https://arpimed.am/wp-content/uploads/2018/02/metoprolol_print-e1519042515456.png"
+    },
+    {
+      "id": "20",
+      "name": "Warfarin",
+      "price": 17.75,
+      "category": "Blood Thinner",
+      "description": "Prevents blood clots in veins, arteries, lungs, and the heart.",
+      "photoUrl": "https://conicalpharmaceuticals.com/wp-content/uploads/2024/01/Warfarin-Tablets-BP-5-mg-768x771.png"
+    }
+  ],
+  "basket": [
+    {
+      "id": "1",
+      "name": "Paracetamol",
+      "price": 5.99,
+      "category": "Pain Reliever",
+      "description": "Used to treat mild to moderate pain and reduce fever.",
+      "photoUrl": "https://phabcart.imgix.net/cdn/scdn/images/uploads/m0459_web.jpg?auto=compress&lossless=1&w=385",
+      "count": 3
+    },
+    {
+      "id": "2",
+      "name": "Amoxicillin",
+      "price": 8.49,
+      "category": "Antibiotic",
+      "description": "An antibiotic used to treat a wide variety of bacterial infections.",
+      "photoUrl": "https://www.pyxuspharmaceuticals.com/wp-content/uploads/2022/09/AMOXICILLIN.png",
+      "count": 4
+    },
+    {
+      "id": "3",
+      "name": "Ibuprofen",
+      "price": 6.99,
+      "category": "Pain Reliever",
+      "description": "Used to reduce fever and relieve pain or inflammation.",
+      "photoUrl": "https://accessdoctor.co.uk/wp-content/uploads/2021/10/Ibuprofen-600mg.jpg",
+      "count": 1
+    },
+    {
+      "id": "4",
+      "name": "Ciprofloxacin",
+      "price": 12.75,
+      "category": "Antibiotic",
+      "description": "An antibiotic effective against a wide range of bacterial infections.",
+      "photoUrl": "https://fastcdn.pro/FileGallery/zagrosdarou.com/%D8%AF%D8%A7%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%D8%A2%D9%86%D8%AA%DB%8C-%D9%85%DB%8C%DA%A9%D8%B1%D9%88%D8%A8%DB%8C%D8%A7%D9%84/%D8%B3%DB%8C%D9%BE%D8%B1%D9%88%D9%81%D9%84%D9%88%DA%A9%D8%B3%D8%A7%D8%B3%DB%8C%D9%86_Ciprofloxacin/3D%20Box%20Cipro%20500.png",
+      "count": 1
+    },
+    {
+      "id": "5",
+      "name": "Metformin",
+      "price": 15.99,
+      "category": "Diabetes",
+      "description": "Used to control high blood sugar in patients with type 2 diabetes.",
+      "photoUrl": "https://fastcdn.pro/FileGallery/zagrosdarou.com/%D8%AF%D8%A7%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D9%86%D8%AF%D9%87-%D9%82%D9%86%D8%AF-%D8%AE%D9%88%D9%86/%D9%85%D8%AA%D9%81%D9%88%D8%B1%D9%85%DB%8C%D9%86_500_%D9%85%DB%8C%D9%84%DB%8C_%DA%AF%D8%B1%D9%85/-678806156-3D%20Box%20metfor%20500.png",
+      "count": 1
+    }
+  ]
+}
